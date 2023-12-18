@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function surprise(){
+           k=document.getElementById("pass").value
+           if (k=='madhav'){
+            window.location.replace("/template/surprise.html")
+           }
+           else{
+            console.log("wrong password")
+           }
+        }
+    </script>
+</head>
+<body>
+    <input type="password" id="pass">
+    <div>
+        <button onclick="surprise()">SURPRISE</button>
+    </div>
+</body>
+</html>

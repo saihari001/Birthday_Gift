@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(gift.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    position: relative;
+    color: rgb(154, 86, 41);
+    border-radius: 5px;
+    padding: 10px 0px;
+    top: 250px;
+    left: 540px;
+    text-align: center;
+}
+button{
+    position: relative;
+    background-color: rgb(154, 86, 41);
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family:Arial;
+    font-weight: bold;
+    border-radius: 15px;
+    top: 250px;
+    left: 550px;
+    animation: move 5s linear infinite;
+}
+@keyframes move{
+    0%{transform: translate(0px, 0px);}
+    25%{transform: translate(5px,10px);}
+    50%{transform: translate(-5px, 10px);}
+    100%{transform: translate(10px, 20px);}
+}
